@@ -1,10 +1,23 @@
 {
     "name": "tharindu93/unyson-shortcode-logo-slider",
+    "type": "wordpress-plugin",
+    "license": ["GPL-2.0"],
+
+    "description": "Normal button shortcode for WordPress unyson framework",
     "authors": [
         {
-            "name": "Tharindu",
-            "email": "tharinduw@eight25media.com"
+            "name": "Tharindu Wickramasinghe",
+            "email": "tharinduw@eight25media.com",
+            "homepage": "https://github.com/tharindu93/unyson-shortcode-button"
         }
     ],
-    "require": {}
+    "keywords": [
+        "wordpress", "composer","wp","unyson","builder mailer"
+    ],
+
+    "require": {
+        "php": ">=5.6"
+    }
+
 }
+
